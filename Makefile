@@ -4,12 +4,14 @@ LIBS = dmanager_module.c
 QUEST1 = Quest_1
 
 %.o: %.c
-        $(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@
 
 door_struct: $(LIBS)
-        $(CC) $(CFLAGS) $^ -o $(QUEST1)
+	$(CC) $(CFLAGS) $^ -o $(QUEST1)
+
+list_test:
 
 .PHONY: clean
 
 clean:
-        rm -rf $(QUEST1)
+	rm -rf $(QUEST1)
