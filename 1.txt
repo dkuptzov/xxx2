@@ -1,0 +1,2 @@
+https://repos.21-school.ru/students/P03D20.ID_239642/Team_TL_butterfp.5d644751_a4ca_48f0/P03D20-1.git
+ssh://git@repos-ssh.21-school.ru:2289/students/P03D20.ID_239642/Team_TL_butterfp.5d644751_a4ca_48f0/P03D20-1.git
